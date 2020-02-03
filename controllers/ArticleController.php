@@ -120,7 +120,7 @@ class ArticleController extends BaseController
 	{
 	    
 		$mArticle = ArticleModel::Instance();
-		$article = $mArticle->del($this->request->getGet()['id_blog']);
+		$article = $mArticle->del($this->request->getGet()['id']);
 		if(!empty($article)){
 			$this->getRedirect('/');
 		}

@@ -15,5 +15,5 @@
 <div class="href">
 	<a href="/login"><button type="button">Logout</button></a>
 	<a href="../"><button type="button">Main page</button></a><br><hr>
-	<a href="/del?id_blog=<?=$article['id_blog']?>"><button type="button">Delete</button></a>
+	<a href="/del?id=<?=$article['id']?>"><button type="button">Delete</button></a>
 </div>

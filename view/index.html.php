@@ -3,7 +3,7 @@
 	
         
         
-        <?php $name = $_SESSION['login'];?> 
+        <?php $name = ($_SESSION['name']);?> 
         <?if($_SESSION['auth']):?>
             <? echo "<span>Привет $name</span><br>";?>
             <?$link ='/add'; $button = 'Добавить новость';?>

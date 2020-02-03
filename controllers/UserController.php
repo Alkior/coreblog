@@ -22,7 +22,8 @@ class UserController extends BaseController
             $auth = password_verify($validator->fields['password'], $mUser->getPass($validator->fields['login'])['password']);
 			if ($validator->isValid) {
 				if ($auth == true) {
-            		$_SESSION['auth'] = true;
+					$_SESSION['auth'] = true;
+					$_SESSION['name'] = $validator->fields['login'];
 
 
 	            	// если стоит галочка                       
