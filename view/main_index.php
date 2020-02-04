@@ -32,13 +32,13 @@
           <li class="nav-item">
             <!-- About Us -->
               <?php if($_SESSION['auth']):?>
-                  <?php $auth = 'Log out'; $link = '/logout'?>
+                  <?php $auth = 'Log out'; $link = '/logout'; $char = $_SESSION['name'] . ', '?>
               <?php endif ?>
               <?php if(!$_SESSION['auth']):?>
                   <?php $auth = 'Log in'; $link = '/login'?>
               <?php endif ?>
 
-            <a href="<?=$link?>" class="nav-link" style="color: #f0f0f0;"><?=$auth?></a>
+            <a href="<?=$link?>" class="nav-link" style="color: #f0f0f0;"><?=$char?><?=$auth?></a>
 
           </li>
         </ul>

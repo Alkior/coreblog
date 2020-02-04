@@ -7,11 +7,11 @@
             <?php endforeach ?>
         </div>
     <?php endif ?>
-Логин<br>
+    <span>Логин</span><br>
 	<input type="text" name="login"><br>
-	Пароль<br>
+	<span>Пароль</span><br>
 	<input type="text" name="password"><br>
-	<input type="checkbox" name="remember" value="Yes">Запомнить меня
+	<input type="checkbox" name="remember" value="Yes"><span>Запомнить меня</span><br>
 	<input type="submit" value="Войти" name="auth">
 </form><br>
 
