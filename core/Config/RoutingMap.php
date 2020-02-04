@@ -68,6 +68,10 @@
                 'action' => 'accountAction',
                 'params' =>[
                     'int' => 'id'
-                ]
-            ]
+				]
+			],
+			'/about' => [
+				'controller' => 'controllers\ArticleController',
+				'action' => 'aboutAction'
+			]
 		];

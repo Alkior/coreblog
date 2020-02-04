@@ -116,6 +116,11 @@ class ArticleController extends BaseController
 		$this->title = 'Изменение статьи ' . $article['title'];
 	}
 
+	public function aboutAction(){
+		$this->content = RND::render('view/about.html.php');
+		$this->title = 'Немного об этом блоге';
+	}
+
 	public function delAction()
 	{
 	    
