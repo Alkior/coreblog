@@ -300,7 +300,7 @@ p {
 }
 
 #footer-bottom {
-	/*background: url(images/Footer_bottom_bg.jpg) repeat-x;*/
+	background: black; /*url(images/Footer_bottom_bg.jpg) repeat-x;*/
 	height: 76px;
 }
 
