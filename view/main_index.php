@@ -107,8 +107,8 @@
           </div>              
           <div id="footer-bottom">
               <div id="bottom-content">
-                  <p class="left">Copyright &copy; 2011 <a href="#">Ride Magazine</a> All Rights Reserved.</p>
-                  <p class="right">Powered by <a href="#">WordPress</a> - Designed &amp; Developed By <a href="#">Mahdi El Hanafi</a>.</p>
+                  <p class="left">Copyright &copy; 2019 <a href="#">Core Blog</a> All Rights Reserved.</p>
+                  <p class="right">Powered by <a href="#">coreblog</a> - Designed &amp; Developed By <a href="#">Evgeniy Potapov aki "Alkior"</a>.</p>
                   <p>Reconstructed by <a href="#">Alkior</a>.</p>
               </div>
           </div>
